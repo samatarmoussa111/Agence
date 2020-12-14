@@ -12,7 +12,7 @@ class HomeController extends AbstractController
      */
     public function home(): Response
     {
-        //TODO: faire la requette qui permet de choper les derniers biens
+        //TODO: faire la requette qui permet de choper les derniers biens dans la bdd
 
         
         return $this->render("front_office/home.html.twig");
